@@ -1,0 +1,108 @@
+ul#nav{
+	list-style-type:none;
+	background-color: #333;
+	padding: 0;
+}
+
+ul#nav li{
+	float:left;
+}
+
+ul#nav li a{
+	font-size: 20px;
+	text-align: center;
+	display:block;
+	width: 200px;
+	padding-top: 18px;
+	padding-bottom:18px;
+	text-decoration: none;
+	transition:0.4s ease;
+	color:white;
+}
+
+ul#nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul#nav li a:active{
+	color:red;
+}
+
+.active{
+	background-color:red;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    content: ".";
+}
+
+div#header {
+    margin: auto;
+	width:800;
+}
+
+body {
+	background-image: url("/img/witchcafe.jpg");
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", Courier;
+}
+
+div#head_title{
+	margin: 60px auto 45px auto;
+	padding: 40px 0 40px 0;
+	width: 890px;
+	border: solid white;
+	border-width: 3px 0;
+}
+
+div#head_title h2 {
+	color: white;
+	font-size: 180%;
+	float: left;
+	margin: 0 0 0 20px;
+	background-color: rgba(139, 169, 232, 0.7);
+}
+
+div#container {
+	margin: 0 auto;
+	width: 890px;
+	font-size: 90%;
+}
+
+div#info_container {
+	margin: 0 20px 50px 20px;
+}
+
+div.primer{
+	width: 250px;
+	padding-top: 15px;
+	font-size: 90%;
+	color: #aaa;
+	line-height: 170%;
+	float: left;
+}
+
+div.primer h3 {
+	font-size: 150%;
+	margin-bottom: 10px;
+	color: white;
+	background-color: rgba(139, 169, 232, 0.7);
+}
+
+div.info_content {
+	width: 560px;
+	border-left: 3px solid white;
+	padding: 15px 0 15px 35px;
+	margin: 0 0 30px 260px;
+	color: white;
+}
+
+div.info_content p{
+	background-color: rgba(139, 169, 232, 0.7);
+	width:300px;
+}

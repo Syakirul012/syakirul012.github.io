@@ -1,0 +1,80 @@
+ul#nav{
+	list-style-type:none;
+	background-color: #333;
+	padding: 0;
+}
+
+ul#nav li{
+	float:left;
+}
+
+ul#nav li a{
+	font-size: 20px;
+	text-align: center;
+	display:block;
+	width: 200px;
+	padding-top: 18px;
+	padding-bottom:18px;
+	text-decoration: none;
+	transition:0.4s ease;
+	color:white;
+}
+
+ul#nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul#nav li a:active{
+	color:red;
+}
+
+.active{
+	background-color:red;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    content: ".";
+}
+
+div#header {
+    margin: auto;
+	width:800;
+}
+
+table, td, th, tr{
+	border: 2px solid;
+	border-collapse: collapse;
+	padding: 5px;
+	margin: auto;
+}
+
+caption{
+	color:white;
+}
+
+tr#tableHead{
+	background-color:white;
+}
+
+tr#HTML{
+	background-color:#aaff80;
+}
+			
+tr#CSS{
+	background-color:#ffff00;
+}
+			
+tr#JS{
+	background-color:#ff471a;
+}
+
+body {
+	background-image: url("/img/lone giant below the night sky.jpg");
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", Courier;
+}

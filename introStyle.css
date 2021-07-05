@@ -1,0 +1,79 @@
+body {
+	font-family: "Lucida Console", "Courier New", Courier;
+	background-image:url("/img/reflective cafe.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+ul#nav{
+	list-style-type:none;
+	background-color: #333;
+	padding: 0;
+}
+
+ul#nav li{
+	float:left;
+}
+
+ul#nav li a{
+	font-size: 20px;
+	text-align: center;
+	display:block;
+	width: 200px;
+	padding-top: 18px;
+	padding-bottom:18px;
+	text-decoration: none;
+	transition:0.4s ease;
+	color:white;
+}
+
+ul#nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul#nav li a:active{
+	color:red;
+}
+
+.active{
+	background-color:red;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    content: ".";
+}
+
+div#header {
+    margin: auto;
+	width:800;
+}
+	
+div#intro{
+	width:1000px;
+	color: #f4ffde;
+	background-color: rgba(68, 121, 246, 0.7);
+	margin: 25px auto 25px auto;
+	text-align:center;
+	font-weight: bold;
+}
+
+div#skill{
+	width:1000px;
+	color: #f4ffde;
+	background-color: rgba(68, 121, 246, 0.7);
+	margin: 25px auto 25px auto;
+}
+
+div#skillList{
+	margin-left:327px;
+}
+
+ol li{
+	font-style: italic;
+}

@@ -1,0 +1,69 @@
+html{
+	overflow: auto;
+}
+
+img#banner{
+	width:1350px;
+	height:565px;
+}
+
+ul#nav{
+	list-style-type:none;
+	background-color: #333;
+	padding: 0;
+}
+
+ul#nav li{
+	float:left;
+}
+
+ul#nav li a{
+	font-size: 20px;
+	text-align: center;
+	display:block;
+	width: 200px;
+	padding-top: 18px;
+	padding-bottom:18px;
+	text-decoration: none;
+	transition:0.4s ease;
+	color:white;
+}
+
+ul#nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul#nav li a:active{
+	color:red;
+}
+
+.active{
+	background-color:red;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    content: ".";
+}
+
+div#header {
+    margin: auto;
+	width:800;
+}
+
+div#pad{
+	padding:1000px 1px;
+}
+
+div#misc{
+	text-align:center;
+}
+
+body {
+	background: linear-gradient(to bottom, rgba(0, 169, 153, 0), rgba(0, 169, 153, 0.3));
+	font-family: "Lucida Console", "Courier New", Courier;
+}
